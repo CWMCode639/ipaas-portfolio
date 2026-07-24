@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.db
+*.log
+.env
+.DS_Store
+03-mini-connector-engine/slack_log.txt
+03-mini-connector-engine/action_log.txt

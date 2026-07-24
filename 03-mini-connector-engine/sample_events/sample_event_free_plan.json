@@ -1,0 +1,8 @@
+{
+  "type": "user.created",
+  "data": {
+    "name": "Alex Chen",
+    "email": "alex@example.com",
+    "plan": "free"
+  }
+}

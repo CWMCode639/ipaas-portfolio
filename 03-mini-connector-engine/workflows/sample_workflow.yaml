@@ -1,0 +1,20 @@
+# A "workflow" (Zapier would call this a Zap, n8n a workflow) is just:
+# trigger -> filter -> transform -> action
+
+name: "Notify on new pro user"
+
+trigger:
+  event_type: user.created
+
+filter:
+  field: data.plan
+  operator: equals
+  value: pro
+
+transform:
+  mapping:
+    message: "New PRO user signed up: {data.name} <{data.email}>"
+
+action:
+  type: log_to_file
+  target: slack_log.txt
