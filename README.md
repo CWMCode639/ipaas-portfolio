@@ -20,7 +20,7 @@ This repo has three small, self-contained projects that each demonstrate one pie
 | 1 | [`01-webhook-basics`](./01-webhook-basics) | Receiving webhooks securely: HMAC signature verification, replay protection, event logging |
 | 2 | [`02-data-collector`](./02-data-collector) | Pull-based integration: polling a public API on a schedule, deduplicating, and storing results |
 | 3 | [`03-mini-connector-engine`](./03-mini-connector-engine) | Putting it together: a trigger → filter → transform → action pipeline driven by a config file, like a tiny Zapier |
-| 4 | [`04-dashboard`](./04-dashboard) | Bringing it together: a web dashboard that visualizes data and demonstrates the end-to-end workflow in a simple user interface |
+| 4 | [`04-dashboard`](./04-dashboard) | Visualizing the Process: a web dashboard that visualizes data and demonstrates the end-to-end workflow in a simple user interface |
 
 Each project folder has its own README with setup steps and an explanation of the concept it covers.
 
